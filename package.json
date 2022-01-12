@@ -1,0 +1,19 @@
+{
+  "name": "cryptoprices",
+  "version": "1.0.0",
+  "description": "CLI for crypto prices",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yusuf Rabiu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "colors": "^1.4.1",
+    "commander": "^8.3.0",
+    "conf": "^10.1.1",
+    "inquirer": "^8.2.0"
+  }
+}
